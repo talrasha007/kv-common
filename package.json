@@ -3,6 +3,9 @@
   "description": "node-kv common interface.",
   "repository": "https://github.com/talrasha007/kv-wiredtiger.git",
   "version": "0.0.1",
-  "main": "include_dir.js",
-  "license": "MIT"
+  "main": "lib/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^1.7.0"
+  }
 }
