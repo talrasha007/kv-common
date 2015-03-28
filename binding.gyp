@@ -3,7 +3,8 @@
     {
       "target_name": "kv-common",
 	  "include_dirs" : [
-        "<!(node -e \"require('nan')\")"
+        "<!(node -e \"require('nan')\")",
+        "include"
       ],
       "sources": [
         "src/batch.cc",
